@@ -6,7 +6,7 @@
   position: relative; }
   .mountain img {
     margin-left: -20%;
-    height: 700px;
+    height: 100vh;
     z-index: -1; }
 
 .mountain:hover {
