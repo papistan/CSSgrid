@@ -1,0 +1,42 @@
+.mountain {
+    overflow: hidden;
+    min-width: 50px;
+    transition: min-width 0.4s;
+    display: grid;
+    position: relative;
+    img {
+       
+        margin-left: -20%;
+        height: 700px;
+        z-index: -1;
+    }
+}
+
+.mountain:hover {
+    min-width: 500px;
+    .mtn-info {
+        h1 {
+            font-size: 50px;
+            font-family: 'Rock Salt', cursive;
+        }
+        p {
+            font-size: 30px;
+        }
+    }
+}
+
+.mtn-info {
+    color: white;
+    position: absolute;
+    text-align: center;
+    left: 10%;
+    h1 {
+        font-family: 'Rock Salt', cursive;
+       font-size: 30px;
+    }
+
+    p {
+        font-size: 0px;
+        color: black;
+    }
+}
