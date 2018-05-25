@@ -5,22 +5,27 @@
     display: grid;
     position: relative;
     img {
+        filter: grayscale(50%);
         margin-left: -20%;
         height:100vh;
         z-index: -1;
+        transition: margin-left 1s;
     }
 }
 
 .mountain:hover {
     min-width: 500px;
     background: rgba(158, 165, 207, 0.4);
+    img {
+        margin-left: -30%;
+    }
     .mtn-info {
         h1 {
-            font-size: 50px;
+            font-size: 70px;
             font-family: 'Rock Salt', cursive;
         }
         p {
-            font-size: 30px;
+            font-size: 100px;
         }
     }
 }
@@ -32,14 +37,14 @@
     left: 10%;
     h1 {
         font-family: 'Rock Salt', cursive;
-       font-size: 30px;
+       font-size: 35px;
        transform: rotate(-20deg);
     }
 
     p {
         font-size: 0px;
-        color: rgb(76, 94, 201);
-        font-family: 'Rock Salt', cursive;
+        color: white;
+        font-family: 'Alegreya Sans SC', sans-serif;
         margin: 0px;
         transform: rotate(-20deg);
     }
