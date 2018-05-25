@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import Mountains from './components/mountains';
+import Blocks from './components/blocks'
 import './App.css';
 
 class App extends Component {
@@ -8,8 +9,8 @@ class App extends Component {
     return (
       <div className="App">
         <Mountains />
-        <h1>Next secton </h1>
-        
+        <Blocks />
+
       </div>
     );
   }
