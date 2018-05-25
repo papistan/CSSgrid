@@ -3,13 +3,13 @@ export const DATA = [
         name: "Aconcagua",
         elevation: 22829,
         continent: "South America",
-        url: "http://7summits.com/images/data/media/6/acondawn-p.jpg"
+        url: "https://www.alpineascents.com/wp-content/uploads/2016/03/Aconcagua-thumb.jpg"
     },
     {   
         name: "Denali",
         elevation: 20320,
         continent: "North America",
-        url: "https://cdn.britannica.com/30/2430-004-8EA2519D.jpg"
+        url: "https://media.npr.org/assets/img/2015/08/30/mt.-mckinley-e8c64bfb900d922bb238289303bb1825b2908abb-s900-c85.jpg"
     },
     {
         name: "Everest",
@@ -39,6 +39,6 @@ export const DATA = [
         name: "Kosciuszko",
         elevation: 7310,
         continent: "Australia",
-        url: "https://media-cdn.tripadvisor.com/media/photo-s/01/7c/09/08/walk-to-mt-kosciuszko.jpg"
+        url: "http://www.themountaininstitute.com/images/kosciusko/banner.jpg"
     }
 ]
