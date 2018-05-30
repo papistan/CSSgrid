@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Mountain from './mountain';
-import { DATA } from '../utils/data';
+import { DATA } from '../../utils/data';
 import './mountains.css';
 
 class Mountains extends Component {
