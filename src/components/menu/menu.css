@@ -1,0 +1,47 @@
+.menu-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1%; }
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  margin: 2%;
+  width: 90vw;
+  height: 20vh; }
+  .menu .flexy {
+    flex-basis: 30%;
+    background-color: greenyellow;
+    text-align: center; }
+    .menu .flexy .link {
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      padding: 10%;
+      font-family: arial;
+      font-size: 2em; }
+  .menu .grid {
+    flex-basis: 30%;
+    text-align: center;
+    background-color: turquoise; }
+  .menu .link-2 {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 10%;
+    font-family: arial;
+    font-size: 2em; }
+  .menu .example {
+    flex-basis: 30%;
+    text-align: center;
+    background-color: lightcoral; }
+  .menu .link-3 {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 10%;
+    font-family: arial;
+    font-size: 2em;
+    text-align: center; }

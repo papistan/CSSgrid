@@ -1,5 +1,9 @@
+.blocks-container {
+    display: flex;
+    justify-content: center;
+}
 .blocks {
-   padding-left: 30%;
+   
     display: grid;
     grid-template-columns: 100px 100px 100px 100px;
     grid-template-rows: auto auto;
